@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Pokémon: Linhas Diagonais</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Listras de fundo paralelas que cruzam o site -->
+    <div class="bg-linhas-multiplas"></div>
+
+    <header class="diagonal-header">
+        <div class="header-content">
+            <h1>Mundo Pokémon: Nova Era</h1>
+            <p>A jornada de Ash Ketchum, as gerações e a Pokédex de Kanto</p>
+        </div>
+    </header>
+
+    <!-- Menu de Navegação -->
+    <nav class="diagonal-nav">
+        <button class="tab-btn active" data-target="jornada-geracoes">Ash & As Gerações</button>
+        <button class="tab-btn" data-target="primeiros-jogos">Os Primeiros Jogos</button>
+        <button class="tab-btn" data-target="pokedex-shiny">Pokédex Kanto</button>
+        <button class="tab-btn" data-target="ultimos-famosos">Últimos & Famosos</button>
+    </nav>
+
+    <div class="container">
+
+        <!-- PÁGINA 1: ASH E GERAÇÕES -->
+        <section id="jornada-geracoes" class="page active">
+            
+            <h2>A Jornada de Ash & Pikachu</h2>
+            
+            <p>A história do anime começou em 1997 com <span class="highlight">Ash Ketchum</span>, um garoto de Pallet que acordou atrasado e acabou recebendo um <span class="highlight">Pikachu</span> rebelde como seu Pokémon inicial. O que começou como uma parceria difícil transformou-se na maior amizade do mundo dos animes, culminando com Ash se tornando o Campeão Mundial em 2022.</p>
+            
+            <h2>A Evolução Através das Gerações</h2>
+            
+            <p>A franquia expandiu o universo dos jogos constantemente através de gerações de consoles:</p>
+            
+            <ul>
+                <li><strong>Geração 1 (Kanto):</strong> Red, Blue e Yellow introduziram os 151 Pokémon originais no Game Boy.</li>
+                <li><strong>Geração 2 (Johto):</strong> Gold e Silver trouxeram o dia/noite e a mecânica das cores e criaturas <strong>Shiny</strong>.</li>
+                <li><strong>Geração 3 (Hoenn):</strong> Ruby e Sapphire inovaram com batalhas em dupla no Game Boy Advance.</li>
+                <li><strong>Geração 4 a 6:</strong> Expandiram o mapa para as regiões de Sinnoh, Unova e Kalos (introduzindo a Mega Evolução).</li>
+                <li><strong>Geração 7 a 9 (Alola, Galar e Paldea):</strong> Trouxeram a transição para o 3D completo no Nintendo Switch e fenômenos como o Terastal.</li>
+            </ul>
+
+        </section>
+
+        <!-- PÁGINA 2: OS PRIMEIROS JOGOS -->
+        <section id="primeiros-jogos" class="page">
+
+            <h2>Os Primeiros Jogos: Red & Green</h2>
+
+            <p>Após seis anos de um desenvolvimento difícil e quase falindo a Game Freak (empresa de Tajiri), os primeiros jogos foram lançados no Japan em <span class="highlight">27 de fevereiro de 1996</span> para o Game Boy original.</p>
+
+            <p>Eles foram lançados em duas versões básicas:</p>
+
+            <ul>
+                <li><strong>Pocket Monsters Red</strong></li>
+                <li><strong>Pocket Monsters Green</strong></li>
+            </ul>
+
+            <p>A ideia de lançar duas versões separadas foi sugerida pelo lendário criador de Mario, Shigeru Miyamoto. Isso incentivava os amigos a conversarem e cooperarem, já que certos Pokémon eram exclusivos de apenas uma das versões.</p>
+
+            <p>Mais tarde, o jogo foi refinado e refeito para o lançamento ocidental em 1998, sob os nomes de <strong>Pokémon Red & Blue</strong>, tornando-se um sucesso comercial histórico instantâneo.</p>
+
+        </section>
+
+        <!-- PÁGINA 3: POKÉDEX SHINY -->
+        <section id="pokedex-shiny" class="page">
+            
+            <h2>Pokédex Oficial: 1ª Geração (Kanto)</h2>
+            
+            <p>Explore a coleção completa dos 151 monstrinhos de Kanto baseado na estrutura do pôster oficial de colecionador. Clique em qualquer Pokémon para abrir a visualização e ver as suas versões <strong>Normal e Shiny lado a lado</strong>!</p>
+            
+            <!-- Links de Referências Grounded -->
+            <div class="pokedex-references">
+                <span>Fontes de Referência:</span>
+                <a href="https://www.hottopic.com/product/pokemon-kanto-pokedex-poster/15145046.html" target="_blank" class="ref-link">📋 Pôster de Kanto Oficial</a>
+                <a href="https://www.facebook.com/ozpokemongo/posts/omg-a-user-has-posted-every-single-shiny-pokemon-from-kanto/662699552725793/" target="_blank" class="ref-link">✨ Galeria Kanto Shiny</a>
+            </div>
+            
+            <div id="pokedex-grid" class="pokedex-grid">
+                <!-- Os cards dos Pokémon serão gerados dinamicamente via JS -->
+            </div>
+
+        </section>
+
+        <!-- PÁGINA 4: ÚLTIMOS JOGOS E MAIS FAMOSOS -->
+        <section id="ultimos-famosos" class="page">
+
+            <h2>Os Jogos Mais Recentes (Nona Geração)</h2>
+            
+            <p>Lançados para o Nintendo Switch, os títulos <span class="highlight">Pokémon Scarlet & Pokémon Violet</span> trouxeram o primeiro verdadeiro mapa em mundo totalmente aberto para a série principal. Situados na região de Paldea, os jogos revolucionaram a exploração e introduziram o fenômeno Terastal, que muda os tipos elementares das criaturas durante as batalhas.</p>
+
+            <h2>Os Fenômenos Mais Famosos Globais</h2>
+            
+            <p>Além dos consoles tradicionais da Nintendo, a marca quebrou recordes culturais com produções que engajam bilhões de pessoas:</p>
+
+            <ul>
+                <li><strong>Pokémon GO (Mobile):</strong> O jogo de realidade aumentada que uniu o mundo real à captura de Pokémon em smartphones, gerando aglomerações históricas em parques urbanos.</li>
+                <li><strong>Pokémon TCG (Card Game):</strong> O clássico jogo de cartas colecionáveis que se tornou um mercado multibilionário, movendo campeonatos mundiais e colecionadores ávidos por cartas raras.</li>
+                <li><strong>Pokémon UNITE (MOBA):</strong> A primeira grande incursão competitiva da franquia no estilo de arenas de batalha de estratégia multiplayer.</li>
+            </ul>
+
+        </section>
+
+    </div>
+
+    <!-- JANELA MODAL (POPUP) DO POKÉMON -->
+    <div id="pokemon-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-body">
+                <h3 id="modal-pokemon-name">Nome do Pokémon</h3>
+                <span id="modal-pokemon-number">#000</span>
+                
+                <!-- Container das duas imagens exibidas juntas -->
+                <div class="modal-sprites-container">
+                    <div class="sprite-box">
+                        <p class="sprite-label">Normal</p>
+                        <img id="modal-pokemon-normal-img" src="" alt="Versão Normal">
+                    </div>
+                    <div class="sprite-box">
+                        <p class="sprite-label">Shiny ✨</p>
+                        <img id="modal-pokemon-shiny-img" src="" alt="Versão Shiny">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
