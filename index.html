@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Pokémon - Da Origem às Gerações</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <!-- O cabeçalho agora possui a classe dinâmica 'pokeball-mode' controlada pelo JS -->
+    <header id="main-header" class="pokeball-mode">
+        <h1>Mundo Pokémon</h1>
+        <p>Gotta Catch 'Em All!</p>
+        <!-- O botão central da Pokébola que muda de tipo ao ser clicado -->
+        <div id="pokeball-button" class="pokeball-center"></div>
+    </header>
+
+    <div class="container">
+
+        <!-- Seção: História do Jogo -->
+        <section id="historia">
+            <h2>A História de Pokémon</h2>
+            <p>Pokémon começou como um conceito simples, mas revolucionário: um universo onde criaturas com poderes especiais coexistem com os humanos. Em vez de lutar para destruir os monstros, o objetivo principal do jogador é capturá-los, treiná-los e criar laços de amizade.</p>
+            <p>Os jogadores assumem o papel de um jovem Treinador Pokémon que viaja pelo mundo para desafiar os Líderes de Ginásio, derrotar a Elite dos Quatro e se tornar o grande Campeão. Ao longo da jornada, os treinadores também precisam registrar todas as espécies encontradas na enciclopédia de alta tecnologia conhecida como Pokédex.</p>
+        </section>
+
+        <!-- Seção: O Criador -->
+        <section id="criador">
+            <h2>O Criador: Satoshi Tajiri</h2>
+            <p>A franquia nasceu da mente brilhante do designer japonês <strong>Satoshi Tajiri</strong>. Quando criança, nos anos 1970, Tajiri morava na área rural de Tóquio e tinha um passatempo fascinante: <strong>colecionar insetos</strong>. Ele adorava explorar lagoas e florestas atrás de novas espécies.</p>
+            <p>Anos mais tarde, com a urbanização do Japão e o surgimento do Game Boy, Tajiri percebeu que as crianças já não podiam caçar insetos como ele fazia. Ao ver o cabo de ligação (Link Cable) do Game Boy, ele imaginou pequenos insetos rastejando de um videogame para o outro. Foi esse estalo criativo que deu origem à Game Freak e ao projeto que se tornaria o maior fenômeno de entretenimento do planeta.</p>
+        </section>
+
+        <!-- Seção: Os Primeiros Jogos -->
+        <section id="primeiros-jogos">
+            <h2>Os Primeiros Jogos (Geração 1)</h2>
+            <p>Lançados originalmente para o Game Boy, estes jogos definiram as regras da mecânica de RPG que dita o ritmo da franquia até hoje.</p>
+            
+            <div class="jogos-grid">
+                <div class="card-jogo red">
+                    <h3>Red</h3>
+                    <p>Lançado em 1996 no Japão e 1998 no Ocidente. Traz o icônico Charizard na capa.</p>
+                </div>
+                <div class="card-jogo blue">
+                    <h3>Blue</h3>
+                    <p>Lançado junto com a versão Red no Ocidente, trazendo melhorias visuais e o Blastoise.</p>
+                </div>
+                <div class="card-jogo green">
+                    <h3>Green</h3>
+                    <p>Exclusivo do Japão ao lado de Red. Trazia o Venusaur e deu início a tudo.</p>
+                </div>
+                <div class="card-jogo yellow">
+                    <h3>Yellow</h3>
+                    <p>Edição especial de 1998 baseada no anime. O Pikachu segue você fora da Pokébola!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: Gerações -->
+        <section id="geracoes">
+            <h2>A Evolução das Gerações</h2>
+            <p>A franquia se divide em "Gerações". Cada nova geração introduz uma nova região do mapa e dezenas de novas espécies de criaturas.</p>
+            
+            <ul class="geracoes-lista">
+                <li><span class="gen-titulo">Geração 1 (1996)</span> <span class="gen-regiao">Kanto</span></li>
+                <li><span class="gen-titulo">Geração 2 (1999)</span> <span class="gen-regiao">Johto</span></li>
+                <li><span class="gen-titulo">Geração 3 (2002)</span> <span class="gen-regiao">Hoenn</span></li>
+                <li><span class="gen-titulo">Geração 4 (2006)</span> <span class="gen-regiao">Sinnoh</span></li>
+                <li><span class="gen-titulo">Geração 5 (2010)</span> <span class="gen-regiao">Unova</span></li>
+                <li><span class="gen-titulo">Geração 6 (2013)</span> <span class="gen-regiao">Kalos</span></li>
+                <li><span class="gen-titulo">Geração 7 (2016)</span> <span class="gen-regiao">Alola</span></li>
+                <li><span class="gen-titulo">Geração 8 (2019)</span> <span class="gen-regiao">Galar</span></li>
+                <li><span class="gen-titulo">Geração 9 (2022)</span> <span class="gen-regiao">Paldea</span></li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Mundo Pokémon © 2026 - Desenvolvido para Treinadores. <span>Gotta catch 'em all!</span></p>
+        <!-- Elemento secreto que aparecerá apenas na Master Ball -->
+        <div id="secret-mini-ball" class="hidden"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
